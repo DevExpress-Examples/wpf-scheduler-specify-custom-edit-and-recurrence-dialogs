@@ -1,0 +1,77 @@
+﻿<dx:ThemedWindow
+    x:Class="CustomMvvmFormWithRecurrenceExample.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+    xmlns:dxsch="http://schemas.devexpress.com/winfx/2008/xaml/scheduling"
+    xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm"
+    xmlns:local="clr-namespace:CustomMvvmFormWithRecurrenceExample"
+    Height="600"
+    Width="850"
+    DataContext="{dxmvvm:ViewModelSource local:MainViewModel}"
+    Title="MainWindow">
+
+    <Grid>
+        <dxsch:Scheduler 
+            x:Name="Scheduler"
+            ActiveViewIndex="0"
+            GroupType="Resource">
+            <dxsch:DayView
+                x:Name="dayView"
+                DayCount="3"
+                ResourcesPerPage="3"
+                ShowAllDayArea="False"
+                ShowWorkTimeOnly="True" />
+            <dxsch:WorkWeekView
+                x:Name="workWeekView"
+                ResourcesPerPage="3"
+                ShowAllDayArea="False"
+                ShowWorkTimeOnly="True" />
+            <dxsch:WeekView
+                x:Name="weekView"
+                ResourcesPerPage="3"
+                ShowAllDayArea="False"
+                ShowWorkTimeOnly="True" />
+            <dxsch:MonthView/>
+            <!--region #WindowTypes-->
+            <dxsch:Scheduler.WindowsOptions>
+                <dxsch:WindowsOptions AppointmentWindowType="{x:Type local:HospitalAppointmentWindow}" RecurrenceWindowType="{x:Type local:HospitalRecurrenceWindow}" />
+            </dxsch:Scheduler.WindowsOptions>
+            <!--endregion #WindowTypes-->
+            <!--region #EventToCommand-->
+            <dxmvvm:Interaction.Behaviors>
+                <dxmvvm:EventToCommand EventName="InitNewAppointment" Command="{Binding InitNewAppointmentCommand}">
+                    <dxmvvm:EventToCommand.EventArgsConverter>
+                        <local:NewAppointmentInitConverter/>
+                    </dxmvvm:EventToCommand.EventArgsConverter>
+                </dxmvvm:EventToCommand>
+            </dxmvvm:Interaction.Behaviors>
+            <!--endregion #EventToCommand-->
+            <dxsch:Scheduler.DataSource>
+                <dxsch:DataSource AppointmentsSource="{Binding Appointments}" ResourcesSource="{Binding Doctors}">
+                    <dxsch:DataSource.AppointmentMappings>
+                        <dxsch:AppointmentMappings
+                            AllDay="AllDay"
+                            AppointmentId="Id"
+                            End="EndTime"
+                            Location="Location"
+                            RecurrenceInfo="RecurrenceInfo"
+                            Reminder="ReminderInfo"
+                            ResourceId="DoctorId"
+                            Start="StartTime"
+                            Subject="PatientName"
+                            Type="Type">
+                            <dxsch:CustomFieldMapping Mapping="InsuranceNumber" Name="InsuranceNumber" />
+                            <dxsch:CustomFieldMapping Mapping="FirstVisit" Name="FirstVisit" />
+                            <dxsch:CustomFieldMapping Mapping="Notes" Name="Notes" />
+                        </dxsch:AppointmentMappings>
+                    </dxsch:DataSource.AppointmentMappings>
+                    <dxsch:DataSource.ResourceMappings>
+                        <dxsch:ResourceMappings Caption="Name" Id="Id" />
+                    </dxsch:DataSource.ResourceMappings>
+                </dxsch:DataSource>
+            </dxsch:Scheduler.DataSource>
+        </dxsch:Scheduler>
+    </Grid>
+
+</dx:ThemedWindow>

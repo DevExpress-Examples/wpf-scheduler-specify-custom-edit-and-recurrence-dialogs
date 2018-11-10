@@ -1,4 +1,4 @@
-﻿ <!--region #HospitalRecurrenceWindow-->
+ <!--region #HospitalRecurrenceWindow-->
     <dx:DXDialogWindow
     x:Class="CustomMvvmFormWithRecurrenceExample.HospitalRecurrenceWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"

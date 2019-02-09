@@ -1,4 +1,4 @@
-﻿<!--region #HospitalAppointmentWindow-->
+<!--region #HospitalAppointmentWindow-->
 <dx:DXWindow x:Class="CustomMvvmFormWithRecurrenceExample.HospitalAppointmentWindow"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"

@@ -3,7 +3,7 @@
 
 * [HospitalAppointmentWindow.xaml](./CS/CustomMvvmFormWithRecurrenceExample/HospitalAppointmentWindow.xaml) (VB: [HospitalAppointmentWindow.xaml](./VB/CustomMvvmFormWithRecurrenceExample/HospitalAppointmentWindow.xaml))
 * [HospitalRecurrenceWindow.xaml](./CS/CustomMvvmFormWithRecurrenceExample/HospitalRecurrenceWindow.xaml) (VB: [HospitalRecurrenceWindow.xaml](./VB/CustomMvvmFormWithRecurrenceExample/HospitalRecurrenceWindow.xaml))
-* [MainWindow.xaml](./CS/CustomMvvmFormWithRecurrenceExample/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/CustomMvvmFormWithRecurrenceExample/MainWindow.xaml.vb))
+* [MainWindow.xaml](./CS/CustomMvvmFormWithRecurrenceExample/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/CustomMvvmFormWithRecurrenceExample/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/CustomMvvmFormWithRecurrenceExample/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/CustomMvvmFormWithRecurrenceExample/MainWindow.xaml.vb))
 * [NewAppointmentInitConverter.cs](./CS/CustomMvvmFormWithRecurrenceExample/NewAppointmentInitConverter.cs) (VB: [NewAppointmentInitConverter.vb](./VB/CustomMvvmFormWithRecurrenceExample/NewAppointmentInitConverter.vb))
 * [MainViewModel.cs](./CS/CustomMvvmFormWithRecurrenceExample/ViewModel/MainViewModel.cs) (VB: [MainViewModel.vb](./VB/CustomMvvmFormWithRecurrenceExample/ViewModel/MainViewModel.vb))

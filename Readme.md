@@ -2,10 +2,10 @@
 *Files to look at*:
 
 * [HospitalAppointmentWindow.xaml](./CS/CustomMvvmFormWithRecurrenceExample/HospitalAppointmentWindow.xaml) (VB: [HospitalAppointmentWindow.xaml](./VB/CustomMvvmFormWithRecurrenceExample/HospitalAppointmentWindow.xaml))
-* [HospitalAppointmentWindow.xaml.cs](./CS/CustomMvvmFormWithRecurrenceExample/HospitalAppointmentWindow.xaml.cs) (VB: [HospitalAppointmentWindow.xaml](./VB/CustomMvvmFormWithRecurrenceExample/HospitalAppointmentWindow.xaml))
+* [HospitalAppointmentWindow.xaml.cs](./CS/CustomMvvmFormWithRecurrenceExample/HospitalAppointmentWindow.xaml.cs) (VB: [HospitalAppointmentWindow.xaml.vb](./VB/CustomMvvmFormWithRecurrenceExample/HospitalAppointmentWindow.xaml.vb))
 * [HospitalRecurrenceWindow.xaml](./CS/CustomMvvmFormWithRecurrenceExample/HospitalRecurrenceWindow.xaml) (VB: [HospitalRecurrenceWindow.xaml](./VB/CustomMvvmFormWithRecurrenceExample/HospitalRecurrenceWindow.xaml))
-* [HospitalRecurrenceWindow.xaml.cs](./CS/CustomMvvmFormWithRecurrenceExample/HospitalRecurrenceWindow.xaml.cs) (VB: [HospitalRecurrenceWindow.xaml](./VB/CustomMvvmFormWithRecurrenceExample/HospitalRecurrenceWindow.xaml))
-* [MainWindow.xaml](./CS/CustomMvvmFormWithRecurrenceExample/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/CustomMvvmFormWithRecurrenceExample/MainWindow.xaml.vb))
+* [HospitalRecurrenceWindow.xaml.cs](./CS/CustomMvvmFormWithRecurrenceExample/HospitalRecurrenceWindow.xaml.cs) (VB: [HospitalRecurrenceWindow.xaml.vb](./VB/CustomMvvmFormWithRecurrenceExample/HospitalRecurrenceWindow.xaml.vb))
+* [MainWindow.xaml](./CS/CustomMvvmFormWithRecurrenceExample/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/CustomMvvmFormWithRecurrenceExample/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/CustomMvvmFormWithRecurrenceExample/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/CustomMvvmFormWithRecurrenceExample/MainWindow.xaml.vb))
 * [Doctor.cs](./CS/CustomMvvmFormWithRecurrenceExample/Model/Doctor.cs) (VB: [Doctor.vb](./VB/CustomMvvmFormWithRecurrenceExample/Model/Doctor.vb))
 * [MedicalAppointment.cs](./CS/CustomMvvmFormWithRecurrenceExample/Model/MedicalAppointment.cs) (VB: [MedicalAppointment.vb](./VB/CustomMvvmFormWithRecurrenceExample/Model/MedicalAppointment.vb))

@@ -4,7 +4,7 @@ namespace CustomMvvmFormWithRecurrenceExample {
     /// <summary>
     /// Interaction logic for HospitalAppointmentWindow.xaml
     /// </summary>
-    public partial class HospitalAppointmentWindow : DXWindow
+    public partial class HospitalAppointmentWindow : ThemedWindow
     {
         public HospitalAppointmentWindow()
         {

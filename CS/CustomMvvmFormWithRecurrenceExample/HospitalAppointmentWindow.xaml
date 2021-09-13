@@ -1,5 +1,5 @@
 <!--region #HospitalAppointmentWindow-->
-<dx:DXWindow
+<dx:ThemedWindow
     x:Class="CustomMvvmFormWithRecurrenceExample.HospitalAppointmentWindow"
     x:Name="AppointmentWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -17,9 +17,9 @@
     mc:Ignorable="d"
     SizeToContent="WidthAndHeight" Title="{Binding Title}">
 
-    <Window.Resources>
+    <dx:ThemedWindow.Resources>
         <dxsch:TimeSpanToDateTimeConverter x:Key="timeSpanToDateTimeConverter" />
-    </Window.Resources>
+    </dx:ThemedWindow.Resources>
 
     <dxmvvm:Interaction.Behaviors>
         <dxmvvm:CurrentWindowService ClosingCommand="{Binding WindowClosingCommand}" />
@@ -124,4 +124,4 @@
         </dxlc:LayoutControl>
     </DockPanel>
 
-</dx:DXWindow><!--endregion #HospitalAppointmentWindow-->
+</dx:ThemedWindow><!--endregion #HospitalAppointmentWindow-->

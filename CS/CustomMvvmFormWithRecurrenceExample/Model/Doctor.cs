@@ -1,18 +1,11 @@
-﻿using DevExpress.Mvvm.POCO;
-
-namespace CustomMvvmFormWithRecurrenceExample {
+﻿namespace CustomMvvmFormWithRecurrenceExample {
     public class Doctor {
-        public static Doctor Create() {
-            return ViewModelSource.Create(() => new Doctor());
-        }
-        public static Doctor Create(int Id, string Name) {
-            Doctor doctor = Doctor.Create();
-            doctor.Id = Id;
-            doctor.Name = Name;
-            return doctor;
+        public Doctor(int id, string name) {
+            Id = id;
+            Name = name;
         }
 
-        public virtual int Id { get; set; }
-        public virtual string Name { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }

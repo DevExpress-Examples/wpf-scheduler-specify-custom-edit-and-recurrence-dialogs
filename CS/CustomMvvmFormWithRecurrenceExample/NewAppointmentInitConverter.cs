@@ -1,5 +1,4 @@
-﻿#region #NewAppointmentInitConverter
-using DevExpress.Mvvm.UI;
+﻿using DevExpress.Mvvm.UI;
 using DevExpress.Xpf.Scheduling;
 
 namespace CustomMvvmFormWithRecurrenceExample {
@@ -11,4 +10,3 @@ namespace CustomMvvmFormWithRecurrenceExample {
         }
     }
 }
-#endregion #NewAppointmentInitConverter

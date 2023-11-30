@@ -3,21 +3,26 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T545486)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
-* [HospitalAppointmentWindow.xaml](./CS/CustomMvvmFormWithRecurrenceExample/HospitalAppointmentWindow.xaml) (VB: [HospitalAppointmentWindow.xaml](./VB/CustomMvvmFormWithRecurrenceExample/HospitalAppointmentWindow.xaml))
-* [HospitalAppointmentWindow.xaml.cs](./CS/CustomMvvmFormWithRecurrenceExample/HospitalAppointmentWindow.xaml.cs) (VB: [HospitalAppointmentWindow.xaml.vb](./VB/CustomMvvmFormWithRecurrenceExample/HospitalAppointmentWindow.xaml.vb))
-* [HospitalRecurrenceWindow.xaml](./CS/CustomMvvmFormWithRecurrenceExample/HospitalRecurrenceWindow.xaml) (VB: [HospitalRecurrenceWindow.xaml](./VB/CustomMvvmFormWithRecurrenceExample/HospitalRecurrenceWindow.xaml))
-* [HospitalRecurrenceWindow.xaml.cs](./CS/CustomMvvmFormWithRecurrenceExample/HospitalRecurrenceWindow.xaml.cs) (VB: [HospitalRecurrenceWindow.xaml.vb](./VB/CustomMvvmFormWithRecurrenceExample/HospitalRecurrenceWindow.xaml.vb))
-* [MainWindow.xaml](./CS/CustomMvvmFormWithRecurrenceExample/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/CustomMvvmFormWithRecurrenceExample/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/CustomMvvmFormWithRecurrenceExample/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/CustomMvvmFormWithRecurrenceExample/MainWindow.xaml.vb))
-* [Doctor.cs](./CS/CustomMvvmFormWithRecurrenceExample/Model/Doctor.cs) (VB: [Doctor.vb](./VB/CustomMvvmFormWithRecurrenceExample/Model/Doctor.vb))
-* [MedicalAppointment.cs](./CS/CustomMvvmFormWithRecurrenceExample/Model/MedicalAppointment.cs) (VB: [MedicalAppointment.vb](./VB/CustomMvvmFormWithRecurrenceExample/Model/MedicalAppointment.vb))
-* [NewAppointmentInitConverter.cs](./CS/CustomMvvmFormWithRecurrenceExample/NewAppointmentInitConverter.cs) (VB: [NewAppointmentInitConverter.vb](./VB/CustomMvvmFormWithRecurrenceExample/NewAppointmentInitConverter.vb))
-* [MainViewModel.cs](./CS/CustomMvvmFormWithRecurrenceExample/ViewModel/MainViewModel.cs) (VB: [MainViewModel.vb](./VB/CustomMvvmFormWithRecurrenceExample/ViewModel/MainViewModel.vb))
-<!-- default file list end -->
+# WPF Scheduler - Speify Custom Edit and Recurrence Dialogs
 
-# How to create a scheduling application which uses custom editing and recurrence dialog
+This example demonstrates how to replace built-in appointment and recurrence dialogs with custom windows.
 
-This example is created as described in the <a href="http://help.devexpress.com/#WPF/CustomDocument115395">How to: Customize Editing and Recurrence Dialogs</a> topic and demonstrates how to replace built-in appointment and recurrence editors with custom windows, which provide additional functionality to meet user requirements.
+![image](https://github.com/DevExpress-Examples/how-to-create-a-scheduling-application-which-uses-custom-editing-and-recurrence-dialog-t545486/assets/65009440/e0196050-a7e1-4fec-bd50-56ecdec34d3a)
+
+## Files to Review
+
+* [HospitalAppointmentWindow.xaml](./CS/CustomMvvmFormWithRecurrenceExample/HospitalAppointmentWindow.xaml)
+* [HospitalRecurrenceWindow.xaml](./CS/CustomMvvmFormWithRecurrenceExample/HospitalRecurrenceWindow.xaml)
+* [MainWindow.xaml](./CS/CustomMvvmFormWithRecurrenceExample/MainWindow.xaml)
+
+## Documentation
+
+* [Customize Edit and Recurrence Dialogs](https://docs.devexpress.com/WPF/115395/controls-and-libraries/scheduler/examples/how-to-customize-editing-and-recurrence-dialogs)
+* [Appointment Window](https://docs.devexpress.com/WPF/119347/controls-and-libraries/scheduler/visual-elements/windows/appointment-window)
+* [Recurrence Window](https://docs.devexpress.com/WPF/119348/controls-and-libraries/scheduler/visual-elements/windows/recurrence-window)
+
+## More Examples
+
+* [WPF Scheduler - Implement a Custom In-Place Appointment Editor](https://github.com/DevExpress-Examples/wpf-scheduler-implement-custom-inplace-appointment-editor)
+* [WPF Scheduler - Customize the Built-In Ribbon Control](https://github.com/DevExpress-Examples/wpf-scheduler-customize-built-in-ribbon-control)

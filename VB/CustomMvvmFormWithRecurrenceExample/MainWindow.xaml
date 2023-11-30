@@ -8,8 +8,10 @@
     xmlns:local="clr-namespace:CustomMvvmFormWithRecurrenceExample"
     Height="600"
     Width="850"
-    DataContext="{dxmvvm:ViewModelSource local:MainViewModel}"
     Title="MainWindow">
+    <dx:ThemedWindow.DataContext>
+        <local:MainViewModel/>
+    </dx:ThemedWindow.DataContext>
 
     <Grid>
         <dxsch:SchedulerControl 

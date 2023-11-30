@@ -1,14 +1,15 @@
-﻿Imports DevExpress.Xpf.Core
+Imports DevExpress.Xpf.Core
 
 Namespace CustomMvvmFormWithRecurrenceExample
+
     ''' <summary>
     ''' Interaction logic for HospitalAppointmentWindow.xaml
     ''' </summary>
-    Partial Public Class HospitalAppointmentWindow
-        Inherits DXWindow
+    Public Partial Class HospitalAppointmentWindow
+        Inherits ThemedWindow
 
         Public Sub New()
-            InitializeComponent()
+            Me.InitializeComponent()
         End Sub
     End Class
 End Namespace

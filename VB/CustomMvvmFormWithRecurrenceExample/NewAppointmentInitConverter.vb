@@ -1,8 +1,9 @@
-﻿#Region "#NewAppointmentInitConverter"
+#Region "#NewAppointmentInitConverter"
 Imports DevExpress.Mvvm.UI
 Imports DevExpress.Xpf.Scheduling
 
 Namespace CustomMvvmFormWithRecurrenceExample
+
     Public Class NewAppointmentInitConverter
         Inherits EventArgsConverterBase(Of AppointmentItemEventArgs)
 
@@ -13,4 +14,4 @@ Namespace CustomMvvmFormWithRecurrenceExample
         End Function
     End Class
 End Namespace
-#End Region ' #NewAppointmentInitConverter
+#End Region  ' #NewAppointmentInitConverter

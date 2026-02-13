@@ -28,7 +28,7 @@ This example demonstrates how to replace built-in appointment and recurrence dia
 * [WPF Scheduler - Implement a Custom In-Place Appointment Editor](https://github.com/DevExpress-Examples/wpf-scheduler-implement-custom-inplace-appointment-editor)
 * [WPF Scheduler - Customize the Built-In Ribbon Control](https://github.com/DevExpress-Examples/wpf-scheduler-customize-built-in-ribbon-control)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-scheduler-specify-custom-edit-and-recurrence-dialogs&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-scheduler-specify-custom-edit-and-recurrence-dialogs&~~~was_helpful=no)
 

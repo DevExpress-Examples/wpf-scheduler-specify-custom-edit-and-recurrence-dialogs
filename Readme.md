@@ -23,7 +23,7 @@
 
 This example is created as described in the <a href="http://help.devexpress.com/#WPF/CustomDocument115395">How to: Customize Editing and Recurrence Dialogs</a> topic and demonstrates how to replace built-in appointment and recurrence editors with custom windows, which provide additional functionality to meet user requirements.
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-scheduler-specify-custom-edit-and-recurrence-dialogs&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-scheduler-specify-custom-edit-and-recurrence-dialogs&~~~was_helpful=no)
 

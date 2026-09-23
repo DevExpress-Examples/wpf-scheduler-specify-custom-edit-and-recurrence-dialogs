@@ -7,7 +7,8 @@
     <ProjectGuid>{D5BB86F7-14FA-4FEF-A836-9B8BD69CF1AD}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <AssemblyName>CustomMvvmFormWithRecurrenceExample</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
